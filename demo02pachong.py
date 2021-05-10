@@ -1,11 +1,12 @@
 # coding=utf-8
+# 爬
 import requests
 from lxml import etree
 import threading
 import queue
 import time
 import os
-# 长度为100的对列
+# 长度为100
 q = queue.Queue(maxsize=100)
 
 
@@ -90,7 +91,7 @@ def xml_main():
     xml_list = request_xml_list()
     for i in xml_list:
         try:
-            # 阻塞put队列数据 阻塞超时时间
+            # 阻塞put数据 阻塞超时时间
             q.put(i, block=True, timeout=60)
             my_req = ReqThread(q, r"G:\光谷公司\shuuji\annos-chanche\\", "xml")
             # 不需要守护线程

@@ -1,0 +1,72 @@
+<annotation>
+    <filename>Bing_0000.jpg</filename>
+    <folder>chanche</folder>
+    <source>
+        <sourceImage>The MIT-CSAIL database of objects and scenes</sourceImage>
+        <sourceAnnotation>LabelMe Webtool</sourceAnnotation>
+    </source>
+    <object>
+        <name>chanche</name>
+        <deleted>1</deleted>
+        <verified>0</verified>
+        <occluded/>
+        <attributes/>
+        <parts>
+            <hasparts/>
+            <ispartof/>
+        </parts>
+        <date>14-Aug-2020 09:02:38</date>
+        <id>0</id>
+        <polygon>
+            <username>xiemin</username>
+            <pt>
+                <x>61</x>
+                <y>70</y>
+                <time>14-08-20 17:02:36:569</time>
+            </pt>
+            <closed_date>null</closed_date>
+        </polygon>
+    </object>
+    <object>
+        <name>chanche</name>
+        <deleted>1</deleted>
+        <verified>0</verified>
+        <occluded/>
+        <attributes/>
+        <parts>
+            <hasparts/>
+            <ispartof/>
+        </parts>
+        <date>14-Aug-2020 09:02:45</date>
+        <id>1</id>
+        <type>bounding_box</type>
+        <polygon>
+            <username>xiemin</username>
+            <pt>
+                <x>47</x>
+                <y>64</y>
+                <time>14-08-20 17:02:42:930</time>
+            </pt>
+            <pt>
+                <x>937</x>
+                <y>64</y>
+                <time>14-08-20 17:02:46:102</time>
+            </pt>
+            <pt>
+                <x>937</x>
+                <y>950</y>
+                <time>undefined</time>
+            </pt>
+            <pt>
+                <x>47</x>
+                <y>950</y>
+                <time>undefined</time>
+            </pt>
+            <closed_date>null</closed_date>
+        </polygon>
+    </object>
+    <imagesize>
+        <nrows>1010</nrows>
+        <ncols>1024</ncols>
+    </imagesize>
+</annotation>
